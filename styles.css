@@ -1,0 +1,167 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+body{
+    font-family:'Poppins', sans-serif;
+    background:#15484C; /* Malachite */
+    color:#F7F4D5;
+    line-height:1.6;
+}
+
+/* CONTAINER */
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:0 20px;
+}
+
+/* NAVBAR */
+.navbar{
+    position:fixed;
+    width:100%;
+    top:0;
+    background:#15484C;
+    padding:15px 0;
+}
+
+.nav-logo a{
+    font-family:'Playfair Display', serif;
+    font-size:1.5rem;
+    color:#F66483;
+    text-decoration:none;
+}
+
+.nav-menu{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+.nav-menu a{
+    color:#F7F4D5;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.nav-menu a:hover{
+    color:#F66483;
+}
+
+/* HERO */
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:linear-gradient(135deg,#15484C,#30B8B2);
+}
+
+.hero h1{
+    font-family:'Playfair Display', serif;
+    font-size:4rem;
+    color:#F66483;
+}
+
+.hero p{
+    font-size:1.3rem;
+    margin-top:10px;
+}
+
+/* SECTIONS */
+section{
+    padding:100px 0;
+}
+
+h2{
+    text-align:center;
+    font-family:'Playfair Display', serif;
+    color:#F66483;
+    margin-bottom:40px;
+}
+
+/* ABOUT */
+.about{
+    background:#1f5c60;
+    text-align:center;
+}
+
+.about p{
+    max-width:800px;
+    margin:10px auto;
+}
+
+/* IMAGE GROUP (YOUR FIXED GALLERY STYLE) */
+.image-group{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    margin-top:20px;
+}
+
+.image-group img{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+
+    border-radius:18px;
+    border:3px solid #F66483;
+
+    background:#A6480A;
+    padding:5px;
+
+    transition:0.3s;
+}
+
+.image-group img:hover{
+    transform:scale(1.05);
+}
+
+/* CARDS */
+.education-card{
+    background:#1f5c60;
+    padding:30px;
+    border-radius:15px;
+    margin-top:20px;
+}
+
+/* ACHIEVEMENTS */
+.skills{
+    background:#15484C;
+}
+
+.skills-grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.skill-item{
+    background:#C877BF;
+    padding:10px 20px;
+    border-radius:20px;
+    color:#fff;
+}
+
+/* CONTACT */
+.contact{
+    text-align:center;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:30px;
+    background:#0f3436;
+}
+
+.heart{
+    color:#F66483;
+}
